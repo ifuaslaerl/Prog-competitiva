@@ -1,11 +1,11 @@
 # 🤓 Prog-competitiva
 Contém arquivos criados para solucionar problemas de questões de programação competitiva.
 
-Além de resoluções de questões, o repositório também incluirá meu caderno de algoritmos.
+Além das resoluções de questões, o repositório também incluirá meu caderno de algoritmos.
 
-Essa repositório serve pra eu me organizar e guardar o meu progresso de forma que possa ajudar mais uma pessoa a estudar programação competitiva.
+Este repositório serve para eu me organizar e guardar o meu progresso de forma que possa ajudar mais uma pessoa a estudar programação competitiva.
 
-Principais Sites de estudo:
+Principais sites de estudo:
   
 - [CSES](https://cses.fi/problemset/)
 - [Codeforces](https://codeforces.com/)
