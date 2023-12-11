@@ -1,0 +1,42 @@
+metodos de classes e funcoes uteis do c++ no <bits/stdc++.h>
+
+
+Vector:
+
+nome_do_vector = vetor
+tamanho_do_vetor = n
+
+vetor.size() // retorna o tamanho do vetor // O(n)
+vetor.empty() // retorna um booleano se o vetor esta vazio // O(1)
+vetor.push_back(elemento) // adiciona um elemento no fim do vetor // O(1) se existir o espaco de memoria necessario reservado para o vetor
+vetor.pop_back() // remove um elemento no fim do vetor // (pesquisar melhor a complexidade)
+vetor.clear() // esvazia o vetor // O(n)
+
+
+
+priority_queue<int> , vector<int> , greater<int>> // priority_queue invertida 
+
+
+Ordered Set:
+estrutura de dados ordenada com duas funcoes com coplexidade O(log(n)) com n sendo o tamanho da lista
+funciona naturalmente como um set normal, porem com essas utilidades a mais
+order_of_key(k) --> numero de elementos menores que k
+
+
+Funcoes definidas globalmente:
+
+fill( vetor.begin() , vetor.end() , valor ) // preenche um vetor com o valor desejado // O(n)
+fill( ponteiro_inicio , ponteiro_fim , valor )
+
+sort( vetor.begin() , vetor.end() , ( funcao de comparacao opcional ) ) // ordena o vetor de forma crescente // O(n log(n))
+sort( vetor.rbegin() , vetor.rend() , ( funcao de comparacao opcional ) ) // ordena o vetor de forma decrescente // O(n log(n))
+sort( ponteiro_inicio , ponteiro_fim , ( funcao de comparacao opcional ) )
+
+reverse( ponteiro_inicio , ponteiro_fim ) // inverte a lista // funciona pra strings // O(n)
+
+distance( ponteiro1 , ponteiro2 ) // transforma as distancia entre ponteiros em um inteiro // O(n) ou O(1) depende da estrutura de dados
+
+
+Dicas:
+
+Se nao souber definir o tipo de retorno de uma funcao, usar o tipo (auto)
