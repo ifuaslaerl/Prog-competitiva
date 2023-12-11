@@ -19,6 +19,15 @@ nome_da_queue = fila
 fila.push(elemento) // adiciona um elemento na fila // (pesquisar melhor a complexidade)
 fila.pop() // deleta o primeiro elemento da fila // (pesquisar melhor a complexidade)
 
+Pair:
+
+nome_do_pair = par
+
+par.first // retorna o primero elemento do par // O(1)
+par.second // retorna o segundo elemento do par // O(1)
+
+detalhe: ordenação de pairs é feita de forma que se ordena com base no primeiro elemento e caso o primeiro seja igual
+a ordenação é feita com base no segundo elemento.
 
 priority_queue<int> , vector<int> , greater<int>> // priority_queue invertida 
 
