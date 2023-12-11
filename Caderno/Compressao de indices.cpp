@@ -4,7 +4,7 @@ using namespace std ;
 
 int main(){
     
-    // pega os imputs
+    // pega os inputs
     int n ; cin >> n ;
     vector<int> lista(n) , copia(n) , comprimido(n) ;
     for( int i = 0 ; i < n ; i++ ){
