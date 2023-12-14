@@ -1,25 +1,53 @@
 metodos de classes e funcoes uteis do c++ no <bits/stdc++.h>
 
 
-Vector:
+vector:
 
 nome_do_vector = vetor
 tamanho_do_vetor = n
 
-vetor.size() // retorna o tamanho do vetor // O(n)
+vetor.size() // retorna o tamanho do vetor // O(1)
 vetor.empty() // retorna um booleano se o vetor esta vazio // O(1)
 vetor.push_back(elemento) // adiciona um elemento no fim do vetor // O(1) se existir o espaco de memoria necessario reservado para o vetor
 vetor.pop_back() // remove um elemento no fim do vetor // (pesquisar melhor a complexidade)
 vetor.clear() // esvazia o vetor // O(n)
 
-Queue:
+set:
+
+nome_do_set = conjunto
+
+conjunto.insert() // (pesquisar melhor a complexidade)
+conjunto.erase() // (pesquisar melhor a complexidade)
+conjunto.remove() // (pesquisar melhor a complexidade)
+conjunto.lower_bound() // (pesquisar melhor a complexidade)
+conjunto.upper_bound() // (pesquisar melhor a complexidade)
+
+obs: os sets são como conjuntos, não podem ter elementos repetidos e são sempre ordenados de forma crescente de forma automatica
+
+map:
+
+nome_do_map = mapa
+
+deque: 
+
+nome_do_deque = deck 
+
+deck.size() // retorna o tamanho do deque // O(1)
+deck.empty() // retorna um booleano se o deque esta vazio // O(1)
+deck.push_back(elemento) // adiciona um elemento no fim do deque // O(1) se existir o espaco de memoria necessario reservado para o vetor
+deck.pop_back() // remove um elemento no fim do deque // (pesquisar melhor a complexidade)
+deck.push_front(elemento) // adiciona um elemento no inicio do deque // O(1) se existir o espaco de memoria necessario reservado para o vetor
+deck.pop_front() // remove um elemento no inicio do deque // (pesquisar melhor a complexidade)
+deck.clear() // esvazia o deque // O(n)
+
+queue:
 
 nome_da_queue = fila
 
 fila.push(elemento) // adiciona um elemento na fila // (pesquisar melhor a complexidade)
 fila.pop() // deleta o primeiro elemento da fila // (pesquisar melhor a complexidade)
 
-Pair:
+pair:
 
 nome_do_pair = par
 
@@ -31,9 +59,11 @@ a ordenação é feita com base no segundo elemento.
 
 priority_queue<int> , vector<int> , greater<int>> // priority_queue invertida 
 
-Ordered Set:
+ordered Set:
+
 estrutura de dados ordenada com duas funcoes com coplexidade O(log(n)) com n sendo o tamanho da lista
 funciona naturalmente como um set normal, porem com essas utilidades a mais
+
 order_of_key(k) --> numero de elementos menores que k
 
 
